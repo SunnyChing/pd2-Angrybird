@@ -2,5 +2,22 @@
     <qresource prefix="/">
         <file alias="ground.png">image/GROUND.png</file>
         <file alias="bird.png">image/Normal_Bird_1.png</file>
+        <file>image/b_bird.png</file>
+        <file>image/bg.png</file>
+        <file>image/bird2.png</file>
+        <file>image/bird4.png</file>
+        <file>image/sling.png</file>
+        <file>image/stone1.png</file>
+        <file>image/wood1.png</file>
+        <file>image/bird3.png</file>
+        <file>image/pig.png</file>
+        <file>image/bird5.png</file>
+        <file>image/bt_restart.png</file>
+        <file>image/play.png</file>
+        <file>image/exit.png</file>
+        <file>image/bird4-.png</file>
+        <file>image/pig_1.png</file>
+        <file>image/pig_2.png</file>
+        <file>image/bird3_1.png</file>
     </qresource>
 </RCC>

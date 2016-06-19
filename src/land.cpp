@@ -8,12 +8,18 @@ Land::Land(float x, float y, float w, float h, QPixmap pixmap, b2World *world, Q
 
     // Create body
     b2BodyDef bodyDef;
-    bodyDef.userData = this;
+    //bodyDef.userData = this;
     bodyDef.position.Set(x,y);
     g_body = world->CreateBody(&bodyDef);
     b2PolygonShape bodyBox;
     bodyBox.SetAsBox(w,h);
     g_body->CreateFixture(&bodyBox,9.0f);
+
+    //add userdata
+    mystruct=new bodyUserData;
+    mystruct->BODYID=QString("land");
+    mystruct->MaxImpulse= 20;
+    g_body->SetUserData(mystruct);
 
     scene->addItem(&g_pixmap);
     paint();
