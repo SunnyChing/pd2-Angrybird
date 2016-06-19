@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AngryThings
 Final project of 2016 Spring Class
 
@@ -24,3 +25,7 @@ We have provided you :
 
 # Reference 
 [box2D](http://box2d.org/)
+=======
+# pd2-Angrybird
+This is proj3
+>>>>>>> 0f1e73eeab7e1b73df48de5995f5dcc817188276
